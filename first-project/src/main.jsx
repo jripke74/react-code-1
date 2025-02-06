@@ -1,9 +1,12 @@
+import {createElement } from "react";
 import { createRoot } from "react-dom/client";
 
-const root = createRoot(document.getElementById("root")).render(
-  <ul>
-    <li>Super popular JS library</li>
-    <li>Will help me be even more employable</li>
-    <li>React has a pretty cool logo</li>
-  </ul>
+const root = createRoot(document.getElementById("root"));
+root.render(
+  <main>
+    <img src="/src/assets/react.svg" alt="React logo"/>
+    <h1>This is another element</h1>
+  </main>
+
 );
+
